@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LOCALE_ID, NgModule } from '@angular/core';
+import { ScrollingModule } from '@angular/cdk/scrolling';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -24,6 +25,7 @@ registerLocaleData(LocalFr);
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
+    ScrollingModule,
     AppRoutingModule,
     //PrimeNgModule,
     SharedModule,
