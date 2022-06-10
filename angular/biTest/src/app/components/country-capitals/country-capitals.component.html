@@ -1,0 +1,9 @@
+<button class="btn" 
+        [ngClass]="{
+            'bg-red-first': !isCorrect && !isFirst && firstSelect === item,
+            'bg-red-second': !isCorrect && !isFirst && secondSelect === item
+        }"
+        *ngFor="let item of items" 
+        (click)="onClickButton(item)">
+    {{ item | titlecase }}
+</button>

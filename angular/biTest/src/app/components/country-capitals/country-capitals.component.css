@@ -1,0 +1,16 @@
+.btn {
+    margin: 5px 10px;
+}
+
+button:focus {     
+    background: skyblue;    
+}
+
+
+.bg-red-first {
+    background: orange !important;
+}
+
+.bg-red-second {
+    background: orange !important;
+}
